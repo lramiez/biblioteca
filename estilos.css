@@ -1,0 +1,107 @@
+/*--ACOMODANDO-MARGENES-PADDING--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+/*--IMAGEN-DE-FONDO- 2-------------*/
+body{
+    background-image: url(imagen3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+
+}
+/*--FORMULARIO-------------------*/
+.form{
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(525, 350, 228, 0.3);
+    border-radius: 5px;
+}
+/*--TITULO-----------------------*/
+.titulo{
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.titulo2{
+    color: #2E4053  ;
+    background: #73C6B6  ;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/*--CAJAS-DE-DATOS---------------*/
+.cajas{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    border-left: 10px solid #d9e4ea;
+    transition: all .5s ease;
+    background: palegoldenrod;
+}
+.botoncolor{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    border-left: 10px solid #f988ff;
+    transition: all .5s ease;
+    background: #7f00b2;
+    color: #f988ff;
+}
+.cajas:hover, .cajas:focus{
+    border-left: 10px solid #1a4c7e;
+}
+/*--TERMINOS-Y-CONDICIONES-------*/
+.termino1{
+    text-align: center;
+    color: #3b3b3b;
+}
+.termino2{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.termino2:hover{
+    color: #dbdbdb;
+}
+/*--BOTON-DE-REGISTRARSE---------*/
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #225677;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.btn:hover{
+    background: #133043;
+}
+/*--YA-TENGO-CUENTA--------------*/
+.tengo-cuenta{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tengo-cuenta:hover{
+    color: #dbdbdb;
+}
